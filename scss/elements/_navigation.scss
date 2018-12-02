@@ -1,0 +1,45 @@
+.navigation {
+    text-align: right;
+
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+        display: inline;
+        margin: 0 10px;
+
+        &:first-child {
+            margin-left: 0;
+        }
+    
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    
+
+    &__link {
+        padding: 5px 22px;
+        font-size: $font-size-bigger;
+        text-transform: capitalize;
+        line-height: 0.75;
+        color: $color-white;
+        border: 1px solid transparent;
+
+        &:last-child {
+            margin-right: -20px;
+        }
+
+        &:hover {
+            border: 1px solid $color-white;
+            border-radius: 25px;
+        }
+    }
+
+    &link--avtive {
+        border: 1px solid $color-white;
+        border-radius: 25px;
+    }
+}

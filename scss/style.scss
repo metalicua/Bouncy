@@ -1,0 +1,26 @@
+//variables
+@import 'variables';
+
+//slick Slider
+
+@import 'slick';
+@import 'slick-theme';
+
+//common
+
+@import 'common/_main';
+
+//partails
+
+@import 'partails/_header';
+@import 'partails/_portfolio';
+@import 'partails/_team';
+@import 'partails/_testimonials';
+@import 'partails/_contact';
+@import 'partails/_footer';
+
+//elements
+
+@import 'elements/_navigation';
+@import 'elements/_team_contact';
+@import 'elements/_slider';

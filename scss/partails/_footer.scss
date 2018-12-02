@@ -1,0 +1,62 @@
+.footer {
+    text-align: center;
+
+    &__logo {
+        padding-bottom: 15px;
+    }
+}
+
+.footer__link:hover .cls-1-footer-logo {
+    fill: $color-green;
+}
+
+.copiright {
+    padding-bottom: 35px;
+    color: $color-gray;
+}
+
+.social {
+    padding-bottom: 80px;
+
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+        display: inline-block;
+        margin: 0 2px;
+    }
+
+    &__link {
+        display: inline-block;
+        line-height: 2;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        text-decoration: none;
+        color: $color-white;
+
+        &:hover {
+            color: $color-green;
+        }
+    }
+}
+.facebook {
+    background-color: #3b5998;
+}
+
+.twitter {
+    background-color: #26a6d1;
+}
+
+.linkedin {
+    background-color: #0e76a8;
+}
+
+.instagram {
+    background-color: #3f729b;
+}
+
+.vimeo {
+    background-color: #86c9ef;
+}

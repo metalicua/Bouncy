@@ -1,0 +1,29 @@
+.team-contact {
+    background-image: url('../img/Contact_bg.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.team-contact__title {
+    padding: 50px 0 29px;
+    color: $color-white;
+}
+
+.team-contact__btn {
+    padding-bottom: 55px;
+}
+
+.team-contact__link {
+    display: inline-block;
+    padding: 9px 27px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $color-white;
+    border: 1px solid $color-white;
+    border-radius: 25px;
+
+    &:hover {
+        background-color: $color-green;
+    }
+}

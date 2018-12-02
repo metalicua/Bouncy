@@ -1,0 +1,16 @@
+.contact {
+    padding-bottom: 70px;
+
+    &__title {
+        padding: 70px 0 32px;
+        color: $color_dark;
+    }
+
+    &__discription {
+        padding: 0 20px 70px;
+    }
+}
+
+#map {
+    height: 440px;
+}

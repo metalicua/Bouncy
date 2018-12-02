@@ -1,0 +1,48 @@
+.header {
+    background-image: url('../img/Intro_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__top {
+        padding-top: 45px;
+    }
+
+    &__content {
+        padding: 215px 0 210px;
+        color: $color-white;
+
+        &__title {
+            padding-bottom: 25px;
+            letter-spacing: 7px;
+        }
+
+        &__discription {
+            letter-spacing: 0.5px;
+            font-size: $font-size-bigger;
+        }
+    }
+
+    &__bottom {
+        padding-bottom: 76px;
+        text-align: center;
+    }   
+}
+
+.bottom__link {
+    display: inline-block;
+    padding: 12px 15px;
+    border-radius: 50%;
+    background-color: transparent;
+
+    &:hover {
+        background-color: $color-green;
+    }
+}
+
+.logo__link {
+    display: inline-block;
+}
+
+.logo__link:hover .cls-1-logo {
+    fill: $color-green;
+}

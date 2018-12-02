@@ -1,0 +1,55 @@
+
+.team {
+    
+    &__title {
+        padding: 70px 0 28px;
+    }
+
+    &__discription {
+        padding: 0 20px 55px;
+        font-size: $font-size-bigger;
+        color: $color-gray;
+    }
+
+    &__info {
+        padding: 22px 70px 0;
+        text-align: right;
+        color: $color-gray;
+    }
+}
+
+.team-wrepper {
+    padding-bottom: 85px;
+}
+.team-box {
+    display: flex !important; /* For Slider */
+    padding-bottom: 55px;
+}
+
+.image-box {
+    padding: 0 230px 0 70px;
+}
+
+.info-box {
+    padding-right: 45px;
+    border-right: 2px solid $color-green;
+}
+
+.info {
+
+    &__title {
+        color: $color-dark-gray;
+    }
+
+    &__subtutle {
+        font-family: $fontSourseSansPro;
+        font-weight: 300;
+        font-style: italic;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    &__discription {
+        padding: 30px 50px 0 85px;
+    }
+}
